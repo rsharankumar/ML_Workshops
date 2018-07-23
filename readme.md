@@ -14,6 +14,10 @@ This training covers three important concepts they are
 <br />
 3. NLP and Topic Modelling
 <br />
+4. Sequential Pattern Analysis
+<br />
+5. Decision Tree
+<br />
 <br />
 The data folder contains the sample data used for the workshop
 <br />

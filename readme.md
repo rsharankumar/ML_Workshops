@@ -17,4 +17,5 @@ This training covers three important concepts in data science they are
 <br />
 The data folder contains the sample data used for the workshop
 <br />
+And there are some additional datasets that can be used for the text analysis
 

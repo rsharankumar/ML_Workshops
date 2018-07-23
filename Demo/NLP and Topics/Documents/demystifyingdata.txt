@@ -1,0 +1,50 @@
+Using Analytics to solve pending cases problem
+A blog written based on Inspiration from the following TED talk
+
+
+The number of pending cases at various courts in India is huge. Let us see some facts about these pending cases and other details associated with it. Finally we will explore ways to use data and analytics to address the problem.
+Facts
+The number of pending cases with the Supreme Court is 64,919 as on December 1, 2014
+The data available for the 24 High Courts and lower courts up to the year ending 2013 showed pendency of 44.5 lakhs and whopping 2.6 crores, respectively.
+The CJI came out with an innovative idea of expeditious disposal of cases by setting up a special "social justice bench" to deal with the pendency of cases having social issues which are on rise and needs specialized approach.
+A total of 4,706 judicial positions were vacant as on August 2014 for SC and HCs and as on December 2013 
+At present, the judge strength is around 14 to 16 for a million citizens. Ideally, as per the Supreme Court, it should be around 50 per million.
+Developed regions like Europe have more than 150 judges per million, while the United States has nearly 100 judges for the same number.
+
+
+Reasons for large number of pending cases
+
+ Many lawyers have use adjournments as a means to make more money and also importantly to frustrate other party
+Judge are involved in lots of routine tasks apart from the judicial matters
+Lots of unfilled posts in the judicial service
+
+Scale of the Problem
+
+Since I couldn't get the actual amount spent at various prisons I have considered the budget allotted as a proxy for the expense. In the below chart you can see convicts and under-trials at various prison state-wise and also the budget per prisoner.
+
+Ratio of Under-Trails To Convicts
+
+In the below chart we see for every one convict in the prison how many under-trails are present. We see that in Meghalaya there are more than 10 under-trials for every one convict in the prison.
+
+Period of detention of Under-trials
+
+The below chart shows some stats on the period of detention of the under-trials. While most of are under the period of 3 months we also see many staying for even more than 5 years.
+
+Ways to Improve Judicial System
+
+Increase the number of fast track courts
+Improved training for judicial officers
+Improved infrastructure
+Digitization of the court cases and police records
+Laws pertaining to murder, matrimony, dowry, cheque bouncing, Prevention of corruption, traffic challans, motor accidents, quashing of criminal proceedings etc account for majority of the backlog. Hence special courts should be formed, where the lawyers and judges will be trained for the special cases
+How Analytics can help?
+
+There could be many use-cases one important use-case would be to support the judge with the data about the cases to help him make quick decision on matters such as, giving bail to the under-trial. Generate a risk score for giving bails based on the following data 
+Nature of the crime
+History of violence for the person
+Age of the person
+Failure to appear in court
+Data from other similar cases
+The risk scoring logic could be built using a suitable regression algorithm.
+ 
+It is one vital problem to be solved as many of the under-trails in jail are too poor to get bail and also money spent on them by the government is also huge. Thus by digitizing the data and making use of it in making decision would solve multiple problems and would definitely improve the efficiency of the judicial system.

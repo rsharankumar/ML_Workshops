@@ -1,0 +1,34 @@
+Thoughts:
+ - Do same exercise done for Headline, and apply to Snippet and Abstract
+ - Split PubDate into Day of Week and Month
+ - Relevel NewsDesk, SectionName, SubsectionName (change to factors then relevel)
+
+
+
+
+
+
+
+File Descriptions
+
+The data provided for this competition is split into two files:
+
+NYTimesBlogTrain.csv = the training data set. It consists of 6532 articles.
+NYTimesBlogTest.csv = the testing data set. It consists of 1870 articles.  
+We have also provided a sample submission file, SampleSubmission.csv. This file gives an example of the format of submission files (see the Evaluation page for more information). The data for this competition comes from the New York Times website.
+
+Variable Descriptions
+
+The dependent variable in this problem is the variable Popular, which labels if an article had 25 or more comments in its online comment section (equal to 1 if it did, and 0 if it did not). The dependent variable is provided in the training data set, but not the testing dataset. This is an important difference from what you are used to - you will not be able to see how well your model does on the test set until you make a submission on Kaggle.
+
+The independent variables consist of 8 pieces of article data available at the time of publication, and a unique identifier:
+
+NewsDesk = the New York Times desk that produced the story (Business, Culture, Foreign, etc.)
+SectionName = the section the article appeared in (Opinion, Arts, Technology, etc.)
+SubsectionName = the subsection the article appeared in (Education, Small Business, Room for Debate, etc.)
+Headline = the title of the article
+Snippet = a small portion of the article text
+Abstract = a summary of the blog article, written by the New York Times
+WordCount = the number of words in the article
+PubDate = the publication date, in the format "Year-Month-Day Hour:Minute:Second"
+UniqueID = a unique identifier for each article
